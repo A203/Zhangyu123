@@ -3,7 +3,7 @@ package day1;
 public class Hello {
 
 	public static void main(String[] args) {
-		System.out.println("hello ½ÜÃ×Åµ");
+		System.out.println("hello æ°ç±³è¯º");
 	}
 
 }
