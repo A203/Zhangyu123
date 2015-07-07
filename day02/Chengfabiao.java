@@ -3,14 +3,14 @@ package day02;
 public class Chengfabiao {
 
 	public static void main(String[] args) {
-		//´òÓ¡³Ë·¨±í
+		//æ‰“å°ä¹˜æ³•è¡¨
 		for(int i=1;i<=9;i++){
 			for(int j=1;j<=i;j++){
 				System.out.print(i+"*"+j+"="+i*j+"\t");
 			}
 		System.out.println();
 		}
-		//´òÓ¡Èı½ÇĞÎ
+		//æ‰“å°ä¸‰è§’
 		for(int i=1;i<=5;i++){
 			for(int j=1;j<=i;j++){
 				System.out.print("*"+"\t");
@@ -21,15 +21,8 @@ public class Chengfabiao {
 		//**
 		//***
 		//****
-		//´òÓ¡µ¹Èı½Ç
-		for(int i=1;i<=5;i++){
-			
-		}
-		//
-		//
-		//
-		//
-		
+
+
 	}
 
 }
