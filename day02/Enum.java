@@ -36,7 +36,7 @@ public class Enum {
 			theday = 0;
 		}
 		if(theday==0){
-			System.out.println("è¾“å…¥æ— æ•ˆ");
+			System.out.println("ÊäÈëÎŞĞ§");
 		}
 		else{
 			System.out.println("day="+theday);
