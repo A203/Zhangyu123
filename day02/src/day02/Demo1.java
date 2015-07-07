@@ -6,11 +6,11 @@ public class Demo1 {
 		boolean studyHard=false;
 		if(studyHard)
 		{
-			System.out.println("¿¼ÊÔÄÜÍ¨¹ı");
+			System.out.println("è€ƒè¯•èƒ½é€šè¿‡");
 		}
 		else {
-			System.out.println("¿¼ÊÔÍ¨²»¹ı");
-			System.out.println("ĞèÒª¼ÌĞøÅ¬Á¦");
+			System.out.println("è€ƒè¯•ä¸èƒ½é€šè¿‡");
+			System.out.println("éœ€è¦ç»§ç»­åŠªåŠ›");
 		}
 
 	}

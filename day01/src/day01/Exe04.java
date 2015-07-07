@@ -1,4 +1,4 @@
-package day1;
+package day01;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ public class Exe04 {
 	public static ArrayList<String> p = new ArrayList<String>();
 	public  static void result()
 	{
-		System.out.println("Ñ§Éú²Ëµ¥£º");
+		System.out.println("å­¦ç”Ÿèœå•ï¼š");
 		Iterator it=p.iterator();
 		while(it.hasNext())
 		{
@@ -15,10 +15,10 @@ public class Exe04 {
 	}
 	public static void show()
 	{
-		System.out.println("| 1. Ôö¼Ó1¸öÑ§Éú | ");
-		System.out.println("| 2. ÏÔÊ¾ËùÓĞÑ§Éú |");
-		System.out.println("| 3. ÍË³ö³ÌĞò | ");
-		System.out.println("| ÇëÊäÈëÑ¡Ôñ£¨1-3£©£º ");
+		System.out.println("| 1. å¢åŠ 1ä¸ªå­¦ç”Ÿ | ");
+		System.out.println("| 2. æ˜¾ç¤ºæ‰€æœ‰å­¦ç”Ÿ |");
+		System.out.println("| 3. é€€å‡ºç¨‹åº | ");
+		System.out.println("| è¯·è¾“å…¥é€‰æ‹©ï¼ˆ1-3ï¼‰ï¼š ");
 	}
 	public static void main(String[] args)
 	{
@@ -39,11 +39,11 @@ public class Exe04 {
 					result();
 					break;
 				case 3:
-						System.out.println("ÍË³ö³ÌĞò");
+						System.out.println("é€€å‡ºç¨‹åº");
 						state=0;
 						return;
 				default:
-					System.out.println("Ñ¡ÔñÊäÈë´íÎó");
+					System.out.println("é€‰æ‹©è¾“å…¥é”™è¯¯");
 			}
 		}
 	}

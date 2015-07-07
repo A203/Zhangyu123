@@ -1,18 +1,18 @@
-package day1;
+package day01;
 import java.util.Scanner;
 public class Exe03 {
 	public static void main(String[] args)
 	{
-		System.out.println("ÊäÈëÁ½¸öÊı£º");
+		System.out.println("è¾“å…¥ä¸¤ä¸ªæ•°ï¼š");
 		Scanner sc = new Scanner(System.in);
 		System.out.println();
 		double  n = sc.nextDouble();
 		Scanner sk=new Scanner(System.in);
 		double  p = sk.nextDouble();
-		System.out.println("¼Ó·¨"+add(n, p));
-		System.out.println("¼õ·¨£º"+minus(n, p));
-		System.out.println("³Ë·¨"+multiply(n, p));
-		System.out.println("³ı·¨"+division(n, p));
+		System.out.println("åŠ æ³•"+add(n, p));
+		System.out.println("å‡æ³•ï¼š"+minus(n, p));
+		System.out.println("ä¹˜æ³•"+multiply(n, p));
+		System.out.println("é™¤æ³•"+division(n, p));
 	}
 	public static int add(int a,int b)
 	{
@@ -48,3 +48,4 @@ public class Exe03 {
 	}
 
 }
+

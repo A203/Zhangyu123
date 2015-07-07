@@ -1,6 +1,6 @@
 package day02;
 
-//输出所有质数
+//璐ㄦ暟
 public class Zhishu {
 	public static void main(String[] args)
 	{

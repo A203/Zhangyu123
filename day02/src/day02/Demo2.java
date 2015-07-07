@@ -9,23 +9,23 @@ public class Demo2 {
 		int score=scanner.nextInt();
 		if(score>=90)
 		{
-			System.out.println("等级为A");
+			System.out.println("绛夌骇涓篈");
 		}
 		else if(score>=80)
 		{
-			System.out.println("等级为B");
+			System.out.println("绛夌骇涓築");
 		}
 		else if(score>=70)
 		{
-			System.out.println("等级为C");
+			System.out.println("绛夌骇涓篊");
 		}
 		else if(score>=60)
 		{
-			System.out.println("等级为D");
+			System.out.println("绛夌骇涓篋");
 		}
 		else 
 		{
-			System.out.println("等级为E");
+			System.out.println("绛夌骇涓篍");
 		}
 	}
 

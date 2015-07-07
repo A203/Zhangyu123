@@ -9,16 +9,16 @@ public class Demo3 {
 			int score=scanner.nextInt();
 			if (score>100||score<0)
 			{
-				System.out.println("ÊäÈë´íÎó");
+				System.out.println("è¾“å…¥é”™è¯¯");
 			}
 			else
 			{
 				if(score>=60)
 				{
-					System.out.println("³É¼¨ºÏ¸ñ");
+					System.out.println("æˆç»©åˆæ ¼");
 				}
 				else {
-				System.out.println("³É¼¨²»ºÏ¸ñ");
+				System.out.println("æˆç»©ä¸åˆæ ¼");
 				}
 			}
 		}

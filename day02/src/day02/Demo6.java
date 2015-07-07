@@ -38,7 +38,7 @@ public class Demo6 {
 			day = 0;
 		}
 		if(day==0){
-			System.out.println("ÊäÈëÎŞĞ§");
+			System.out.println("è¾“å…¥æ— æ•ˆ");
 		}
 		else{
 			System.out.println("day="+day);
