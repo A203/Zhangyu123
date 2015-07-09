@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="表一"
+        android:textSize="50sp"
+        android:gravity="center"
+        >
+    </TextView>
+        <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="表一第一列"
+        android:textSize="35dp"
+        android:background="#ff00ff"
+        ></TextView>
+    <TextView
+        android:textSize="35dp"
+        android:text="表一第二列"
+        android:background="#ffccff">
+    </TextView>
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="表一第1列"
+            android:textSize="35dp"
+            android:background="#ff00ff"
+            ></TextView>
+        <TextView
+            android:textSize="35dp"
+            android:text="表一第2列"
+            android:background="#ffccff">
+        </TextView>
+    </TableRow>
+</TableLayout>
